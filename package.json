@@ -1,0 +1,18 @@
+{
+  "name": "cucumber-project",
+  "version": "1.0.0",
+  "description": "Teste com cucumber e cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "@Bruno",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true 
+  }
+}
