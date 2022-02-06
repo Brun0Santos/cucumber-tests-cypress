@@ -7,11 +7,14 @@ When(/^desejo realizar uma "([^"]*)"$/, (operacaoDesejada) => {
     let operacaoDesejadaPeloQa;
 
     switch (operacaoDesejada){
-        case 'soma':
+        case 'adicao':
             operacaoDesejadaPeloQa = '+'
             break
         case 'subtracao':
             operacaoDesejadaPeloQa = '-'
+            break
+        case 'multiplicacao':
+            operacaoDesejadaPeloQa = 'x'
             break
         default:
             break
